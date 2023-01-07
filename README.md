@@ -1,7 +1,5 @@
-# assignment
-Assignment
-
-    Add an ADMIN CONFIGURATION form which will take the following inputs:
+# Assignment
+Add an ADMIN CONFIGURATION form which will take the following inputs:
     
         Country - text field
         City - text field
