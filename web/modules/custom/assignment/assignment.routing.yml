@@ -1,0 +1,7 @@
+assignment.form:
+  path: '/admin/config/development/assignment'
+  defaults:
+    _form: '\Drupal\assignment\Form\AssignmentConfigForm'
+    _title: 'Timezone Settings'
+  requirements:
+    _permission: 'administer site configuration'
