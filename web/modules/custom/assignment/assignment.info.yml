@@ -3,3 +3,5 @@ type: module
 description: Specbee Assignment
 core_version_requirement: ^8.8 || ^9
 package: Specbee
+dependencies:
+ - block
