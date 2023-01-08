@@ -5,3 +5,13 @@ assignment.form:
     _title: 'Timezone Settings'
   requirements:
     _permission: 'administer site configuration'
+
+assignment.getupdatedtime:
+  path: '/getupdatedDateTime'
+  defaults: 
+    _controller: '\Drupal\assignment\Controller\JsonDataController::getupdatedDateTime' 
+    _title: 'Json Data'
+  methods:  [GET]
+  requirements:
+    _access: 'TRUE'
+    _permission: 'access content' 

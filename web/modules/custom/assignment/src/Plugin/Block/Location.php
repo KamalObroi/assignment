@@ -52,6 +52,7 @@ class Location extends BlockBase implements ContainerFactoryPluginInterface{
    public function build() {      
       $currentTime = $this->timezoneservcie->getCurrentTime();
       $currentLocation = $this->timezoneservcie->getLocation();
+      \Drupal::service('page_cache_kill_switch')->trigger();
       return [
          '#theme' => 'location_block',
          '#data' => ['time' => $currentTime, 'location' => $currentLocation]         

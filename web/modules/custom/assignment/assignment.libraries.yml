@@ -3,3 +3,9 @@ assignment:
     css:
         theme:
             css/location_block.css: {}
+    js:
+        js/location_block.js: {}
+    dependencies:
+        - core/jquery
+        - core/drupal
+        - core/drupalSettings
